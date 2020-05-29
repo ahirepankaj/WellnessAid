@@ -4,7 +4,7 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "WellnessAid/img/icon1.png",
+      "src": "/img/icon4.png",
       "sizes": "192x192",
       "type": "image/png"
     }
