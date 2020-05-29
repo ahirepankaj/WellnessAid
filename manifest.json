@@ -3,7 +3,8 @@
 	"lang" : "English",
 	"name" : "Wellness AID",
 	"display" : "fullscreen",
-	"start_url" : ".",
+	"scope" : "/WellnessAid/",
+	"start_url" : "https://ahirepankaj.github.io/WellnessAid/",
 	"short_name" : "Wellness AID",
 	"theme_color" : "transparent",
 	"description" : "",
@@ -40,7 +41,7 @@
 			"src": "/img/icon7.png",
 			"sizes": "16x16"
 		}],
-	"url" : ".",
+	"url" : "https://ahirepankaj.github.io/WellnessAid",
 	"screenshots" : [],
 	"generated" : "true"
 }
