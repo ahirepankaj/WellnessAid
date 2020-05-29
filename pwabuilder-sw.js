@@ -17,10 +17,18 @@ workbox.routing.registerRoute(
   })
 );
 
-
+/*
 self.addEventListener('fetch', event => {
   const req = event.request;
   event.respondWith(cacheFirst(req));
 });
+*/
 
-
+self.addEventListener('fetch', function(e) {
+  console.log(e.request.url);
+  e.respondWith(
+    caches.match(e.request).then(function(response) {
+      return response || fetch(e.request);
+    })
+  );
+});
