@@ -14,7 +14,7 @@
 	"prefer_related_applications" : false,
 	"icons" : [
 		{
-			"src": "/WellnessAid/WellnessAid/img/icon1.png",
+			"src": "/WellnessAid/img/icon1.png",
 			"sizes": "512x512"
 		},
 		{
