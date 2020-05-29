@@ -1,7 +1,7 @@
 let deferredPrompt;
 const addBtn = document.querySelector('.add-button');
 addBtn.style.display = 'none';
-
+/*
 window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent Chrome 67 and earlier from automatically showing the prompt
   e.preventDefault();
@@ -24,5 +24,24 @@ window.addEventListener('beforeinstallprompt', (e) => {
         }
         deferredPrompt = null;
       });
+  });
+});
+
+*/
+
+window.addEventListener('click', () => {
+  // Update the install UI to remove the install button
+  document.querySelector('.add-button').disabled = true;
+  // Show the modal add to home screen dialog
+  installPromptEvent.prompt();
+  // Wait for the user to respond to the prompt
+  installPromptEvent.userChoice.then((choice) => {
+    if (choice.outcome === 'accepted') {
+      console.log('User accepted the A2HS prompt');
+    } else {
+      console.log('User dismissed the A2HS prompt');
+    }
+    // Clear the saved prompt since it can't be used again
+    installPromptEvent = null;
   });
 });
