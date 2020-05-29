@@ -1,0 +1,46 @@
+{
+	"dir" : "ltr",
+	"lang" : "English",
+	"name" : "Wellness AID",
+	"display" : "fullscreen",
+	"start_url" : ".",
+	"short_name" : "Wellness AID",
+	"theme_color" : "transparent",
+	"description" : "",
+	"orientation" : "any",
+	"background_color" : "transparent",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"icons" : [
+		{
+			"src": "/img/icon1.png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "/img/icon2.png",
+			"sizes": "256x256"
+		},
+		{
+			"src": "/img/icon3.png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "/img/icon4.png",
+			"sizes": "64x64"
+		},
+		{
+			"src": "/img/icon5.png",
+			"sizes": "32x32"
+		},
+		{
+			"src": "/img/icon6.png",
+			"sizes": "24x24"
+		},
+		{
+			"src": "/img/icon7.png",
+			"sizes": "16x16"
+		}],
+	"url" : ".",
+	"screenshots" : [],
+	"generated" : "true"
+}
