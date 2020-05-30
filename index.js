@@ -36,3 +36,9 @@ window.addEventListener('beforeinstallprompt', (e) => {
       });
   });
 });
+
+
+window.addEventListener('appinstalled', (evt) => {
+  // Log install to analytics
+  console.log('INSTALL: Success, Login using WellnessAID App');
+});
