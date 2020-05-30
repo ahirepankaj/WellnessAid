@@ -24,6 +24,12 @@ body {
   font-style: normal;
 }
 
+.add-button {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+
 .img {
   max-width: 100%;
   -webkit-transition: 0.3s;
