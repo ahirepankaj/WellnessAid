@@ -7,7 +7,7 @@
 	"start_url" : "/WellnessAid/index.html",
 	"short_name" : "Wellness AID",
 	"theme_color" : "transparent",
-	"description" : "WellnessAID is a program which gives answer for clincal problems.",
+	"description" : "WellnessAID is a program which gives answer to your clincal problems.",
 	"orientation" : "any",
 	"background_color" : "transparent",
 	"related_applications" : [],
