@@ -26,8 +26,7 @@ body {
 
 .add-button {
   position: absolute;
-  top: 1px;
-  left: 1px;
+  top: 50%;
 }
 
 .img {
