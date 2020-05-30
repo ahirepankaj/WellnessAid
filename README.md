@@ -1,1 +1,1 @@
-# wellnessAid.github.io
+# https://ahirepankaj.github.io/WellnessAid/
